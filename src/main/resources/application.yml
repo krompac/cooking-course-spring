@@ -1,0 +1,15 @@
+github:
+  clientId: d8eec1b7da026d8822bf
+  clientSecret: f7cdcda1a4728f2814769dd8a0d2bee7f6628294
+  accessTokenUri: https://github.com/login/oauth/access_token
+  userAuthorizationUri: https://github.com/login/oauth/authorize
+  userInfoUri: https://api.github.com/user
+  redirectUri: http://localhost:8080/github
+
+facebook:
+  clientId: 721402388356996
+  clientSecret: 342366fc51226414bb4b65b688651d6c
+  accessTokenUri: https://graph.facebook.com/oauth/access_token
+  userAuthorizationUri: https://www.facebook.com/dialog/oauth
+  userInfoUri: https://graph.facebook.com/me
+  redirectUri: http://localhost:8080/facebook
